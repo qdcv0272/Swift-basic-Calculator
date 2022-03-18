@@ -34,7 +34,7 @@ func operation(_ opartion: Operation) {
         default:
           break
         }
-        
+        // 결과값 을 1로 나누었을때 0이라면 Int 로 반환 해서 소숫점 표시x
         if let result = Double(self.reseult), result.truncatingRemainder(dividingBy: 1) == 0 {
           self.reseult = "\(Int(result))"
         }
