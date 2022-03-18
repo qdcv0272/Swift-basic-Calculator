@@ -9,7 +9,9 @@
 <hr/>
 
 <h4> 🚀operation 로직🚀 </h4>
+
 ```swift
+
 func operation(_ opartion: Operation) {
     if self.currentOperation != .unknown {
       if !self.displayNumber.isEmpty {
@@ -47,4 +49,5 @@ func operation(_ opartion: Operation) {
       self.displayNumber = ""
     }
   }
+  
 ```
